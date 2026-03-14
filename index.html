@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AuraNoise Web Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AuraNoise</h1>
+        <select id="colorSelect">
+            <option value="white">White</option>
+            <option value="pink">Pink</option>
+            <option value="brown">Brown</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="grey">Grey</option>
+            <option value="black">Black</option>
+            <option value="green">Green</option>
+        </select>
+        
+        <label>Gain Level</label>
+        <input type="range" id="gain" min="0" max="0.05" step="0.0001" value="0.001">
+        
+        <button id="toggleBtn">Start AuraNoise</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
